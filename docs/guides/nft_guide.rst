@@ -46,7 +46,7 @@ The following code snippet shows how to construct a basic ERC721 sell order in J
         expiry: new utils.BigNumber(Math.floor(Date.now() / 1000 + 3600)),
     });
 
-An ERC721 sell order can be created similarly. Note that buy orders must use WETH instead of ether, because the ERC20 `transferFrom` functionality is needed to execute a buy order. 
+An ERC721 buy order can be created similarly. Note that buy orders must use WETH instead of ether, because the ERC20 `transferFrom` functionality is needed to execute a buy order. 
 
 .. code-block:: javascript
 
